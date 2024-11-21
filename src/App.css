@@ -6,29 +6,25 @@
 
 html {
   font-size: 62.5%;
-
 }
-
 
 body {
   background: rgb(3, 0, 31);
   color: white;
-  font-family: 'Poppins', sans-serif; /* Обратите внимание на правильное название шрифта */
+  font-family: "Poppins", sans-serif;
 }
 
-
-.App{
+.App {
   min-height: 100vh;
   display: flex;
 }
 
-.sideBar{
+.sideBar {
   flex: 3;
   border-right: 1px solid rgb(100, 100, 100);
 }
 
-
-.main{
+.main {
   flex: 9;
 }
 
@@ -36,10 +32,42 @@ body {
   margin-right: 1rem;
 }
 
-.brand{
+.brand {
   font-size: 2rem;
 }
 
-.upperSide{
+.upperSide {
   padding: 3rem;
+  border-bottom: 1px solid rgb(100, 100, 100);
+  height: 70%;
+}
+
+.upperSideTop {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.addBtn {
+  height: 2rem;
+  padding-right: 1rem;
+}
+
+.midBtn {
+  background: #5a4bff;
+  border: none;
+  color: white;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  width: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  border-radius: 0.5rem;
+}
+.query {
+  display: flex;
+  justify-content: center;
 }
